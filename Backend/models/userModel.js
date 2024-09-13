@@ -24,15 +24,26 @@
 
 
 
-
 const mongoose = require('mongoose');
-const bcrypt = require('bcrypt');
+// const bcrypt = require('bcrypt');
+const bcrypt = require('bcryptjs');
 
+// Schema design
 const userSchema = new mongoose.Schema({
-    name: String,
-    email: { type: String, unique: true },
-    password: String,
-});
+    name: {
+        type: String,
+        required: [true, 'Name is required'],
+    },
+    email: {
+        type: String,
+        required: [true, 'Email is required and should be unique'],
+        unique: true,
+    },
+    password: {
+        type: String,
+        required: [true, 'Password is required'],
+    },
+}, { timestamps: true });
 
 // Hash the password before saving
 userSchema.pre('save', async function (next) {
@@ -51,4 +62,6 @@ userSchema.methods.comparePassword = async function (password) {
     return bcrypt.compare(password, this.password);
 };
 
-module.exports = mongoose.model('User', userSchema);
+// Export the model
+const User = mongoose.model('User', userSchema);
+module.exports = User;
