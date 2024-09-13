@@ -1,0 +1,25 @@
+/* Layout.css */
+
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+  
+  .layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Full viewport height */
+  }
+  
+  .content {
+    flex: 1; /* Takes up remaining space above the footer */
+  }
+  
+  footer {
+    background-color: #343a40; /* Footer background color */
+    color: #f8f9fa; /* Footer text color */
+    padding: 20px 0; /* Footer padding */
+    text-align: center; /* Center-align text */
+    border-top: 1px solid #495057; /* Footer border color */
+  }
+  

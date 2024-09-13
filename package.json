@@ -1,0 +1,19 @@
+{
+  "name": "expense-managment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start-backend": "cd backend && npm run server",
+    "start-client": "cd client && npm start",
+    "dev": "concurrently \"npm run start-backend\" \"npm run start-client\""
+  },
+  "dependencies": {
+    "axios": "^1.7.7",
+    "concurrently": "^8.2.2",
+    "jsonwebtoken": "^9.0.2",
+    "moment": "^2.30.1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

@@ -1,0 +1,40 @@
+/* Footer.css */
+
+.footer-container {
+    background-color: #343a40; /* Footer background color */
+    color: #f8f9fa; /* Footer text color */
+    padding: 20px 0; /* Footer padding */
+    text-align: center; /* Center-align text */
+    border-top: 1px solid #495057; /* Footer border color */
+  }
+  
+  .footer-content {
+    max-width: 1200px; /* Maximum width for footer content */
+    margin: 0 auto; /* Center align content */
+  }
+  
+  .footer-text {
+    font-size: 14px; /* Font size for footer text */
+    margin: 0; /* Remove margin */
+  }
+  
+  .brand-name {
+    font-weight: bold; /* Bold brand name */
+    color: #17a2b8; /* Brand name color */
+  }
+  
+  .footer-text::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background: #17a2b8; /* Accent line color */
+    margin: 0 auto 10px auto; /* Center align accent line */
+  }
+  
+  @media (max-width: 767px) {
+    .footer-text {
+      font-size: 12px; /* Adjust font size on smaller screens */
+    }
+  }
+  

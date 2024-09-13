@@ -1,0 +1,54 @@
+/* Header.css */
+
+/* Main navbar styling */
+.header-navbar {
+    background-color: #1890ff;  
+    padding: 10px 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* Brand link styling */
+.header-brand {
+    color: white;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-decoration: none;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.header-brand:hover {
+    color: #e6f7ff; 
+}
+ 
+.header-right {
+    display: flex;
+    align-items: center;
+}
+ 
+.header-user {
+    color: white;
+    margin-right: 20px;
+    font-size: 1rem;
+}
+
+.header-logout-btn {
+    background-color: #fff;
+    border: none;
+    color: #1890ff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.header-logout-btn:hover {
+    background-color: #e6f7ff;
+    color: #0050b3;
+}
+
+ 
