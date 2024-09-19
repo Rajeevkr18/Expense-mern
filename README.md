@@ -13,10 +13,8 @@ Filter expenses by custom time ranges:
 Monthly
 Yearly
 Weekly
-
 Expense Analytics
 Visualize expenses through detailed charts and insights to help users analyze their spending patterns.
-
 Tech Stack
 Frontend: React, Bootstrap, Ant Design
 Backend: Node.js, Express.js
@@ -24,28 +22,35 @@ Database: MongoDB
 Authentication: JWT & bcrypt
 Styling: Bootstrap, Ant Design
 
+Installation Instructions
+Clone the repository:
 
-
-Installation:
-1.Clone the repository:
-git clone https://github.com/yourusername/expense-management.git
+bash
+git clone https://github.com/Rajeevkumar9065/Expense-mern
 cd expense-management
+Install dependencies:
 
-2.Install dependencies:
 Backend:
+
+bash
 cd backend
 npm install
-
 Frontend:
+
+bash
 cd ../client
 npm install
+Set up environment variables:
 
-3.Set up environment variables:
+Create a .env file in the root of the project and add the following:
+
+bash
 MONGO_URI=your_mongoDB_connection_string
 JWT_SECRET=your_jwt_secret
+Run the application:
 
-4.Run the application
-In root page --- npm run dev
+From the root directory, run:
 
-
-
+bash
+npm run dev
+This will start both the frontend and backend servers concurrently.
