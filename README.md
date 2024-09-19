@@ -25,27 +25,23 @@ Styling: Bootstrap, Ant Design
 
 ## Installation Instructions
 Clone the repository:
-
-## bash
-git clone https://github.com/Rajeevkumar9065/Expense-mern
+https://github.com/Rajeevkumar9065/Expense-mern
 cd expense-management
 Install dependencies:
 
 ## Backend:
 
-## bash
 cd backend
 npm install
 Frontend:
 
 ## bash
-cd ../client
+cd client
 npm install
 
 ## Set up environment variables:
 Create a .env file in the root of the project and add the following:
 
-## bash
 MONGO_URI=your_mongoDB_connection_string
 JWT_SECRET=your_jwt_secret
 Run the application:
