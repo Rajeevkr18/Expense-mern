@@ -1,20 +1,21 @@
 Expense Management Application (MERN Stack)
-This full-stack Expense Management application is built using the MERN (MongoDB, Express, React, Node.js) stack. It allows users to manage their expenses with authentication, time-based filtering, and analytics.
+This full-stack Expense Management application is built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to manage their expenses efficiently, providing features such as secure authentication, time-based filtering, and expense analytics.
 
 Features
-User Authentication:
-Secure registration and login using bcrypt-hashed passwords.
-Authentication and authorization with JWT.
+User Authentication
+Secure user registration and login with bcrypt for password hashing.
+JWT-based authentication and authorization to protect user data.
+Expense Management
+Perform CRUD operations to add, edit, and delete expenses.
+User-friendly interface for managing expenses seamlessly.
+Time-based Filtering
+Filter expenses by custom time ranges:
+Monthly
+Yearly
+Weekly
 
-Expense Management:
-CRUD operations for adding, editing, and deleting expenses.
-Intuitive expense management interface.
-
-Time-based Filtering:
-Filter expenses by date (monthly, yearly, weekly).
-
-Expense Analytics:
-Visualize expenses with detailed charts and insights.
+Expense Analytics
+Visualize expenses through detailed charts and insights to help users analyze their spending patterns.
 
 Tech Stack
 Frontend: React, Bootstrap, Ant Design
@@ -22,6 +23,8 @@ Backend: Node.js, Express.js
 Database: MongoDB
 Authentication: JWT & bcrypt
 Styling: Bootstrap, Ant Design
+
+
 
 Installation:
 1.Clone the repository:
