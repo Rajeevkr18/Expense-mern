@@ -1,11 +1,11 @@
-## Expense Management Application (MERN Stack)
-This full-stack Expense Management application is built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to manage their expenses efficiently, providing features such as secure authentication, time-based filtering, and expense analytics.
+## Finance Flow Application (MERN Stack)
+This full-stack Finance Flow application is built using the MERN stack (MongoDB, Express, React, Node.js). It allows users to manage their expenses efficiently, providing features such as secure authentication, time-based filtering, and expense analytics.
 
 ## Features
 User Authentication
 Secure user registration and login with bcrypt for password hashing.
 JWT-based authentication and authorization to protect user data.
-## Expense Management
+## Finance Flow
 Perform CRUD operations to add, edit, and delete expenses.
 User-friendly interface for managing expenses seamlessly.
 Time-based Filtering
